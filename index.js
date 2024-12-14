@@ -1,10 +1,7 @@
 require("dotenv").config()
-
 const express =require("express")
-
 const app=express()
 const port=4000;
-
 
 const myData={
     "first Song ": "Moyee Moyee",
@@ -14,8 +11,6 @@ const myData={
     " Six ": "Moyee Moyee",
     "Seven Song ": "Moyee Moyee",
     "Eight Song ": "Moyee Moyee",
-
-
 }
 
 // here send simple Data in Response from get request 
